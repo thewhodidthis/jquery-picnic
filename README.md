@@ -30,7 +30,7 @@ npm install thewhodidthis/picknick
 
 ## usage
 
-Instantiate with optional arguments for the wrap-around total and start position, plus a function to call with each index change. In return you get a plain object with `prev()` and `next()` methods attached for moving that index back and forth. For example,
+Instantiate with optional arguments for the wrap-around total and start position, plus a function to call with each index change. In return you get a plain object with `prev()` and `next()` methods attached for moving that index back and forth. For example:
 
 ```js
 import createPager from "picknick"
